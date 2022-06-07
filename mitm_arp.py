@@ -78,5 +78,5 @@ class ARPpoison:
             self.restore()
 
 
-interface = "enx98fc84e326dd"
-ARPpoison("192.168.1.10", "192.168.1.12", interface).run()
+interface = "interface_name"
+ARPpoison("ip_address_1", "ip_address_2", interface).run()
